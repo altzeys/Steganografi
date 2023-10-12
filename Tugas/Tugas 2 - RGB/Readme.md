@@ -1,4 +1,4 @@
-# TUGAS 2 - Stegranografi
+# TUGAS 2 - Steganografi
 
 ## Deskripsi Tugas
 
