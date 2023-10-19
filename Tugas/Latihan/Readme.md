@@ -1,4 +1,4 @@
-# TUGAS 2 - Steganografi
+# Latihan - Steganografi
 
 ## Deskripsi Tugas
 
