@@ -3,6 +3,7 @@
 Program ini digunakan untuk melakukan **Encode** & **Decode** pesan kedalam **PNG image**
 
 pada program ini terdapat 3 menu
+
 ![Alt text](assets/1.png)
 
 1. Menu Encode
