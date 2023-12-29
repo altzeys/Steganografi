@@ -1,5 +1,6 @@
 import os
 import time
+from datetime import datetime
 from PIL import Image
 
 
@@ -26,15 +27,15 @@ def encode():
         else:
             new_image.append(image_d[index])
 
+    now = datetime.now()
     image.putdata(new_image)
-    image.save(
-        input("input new encoded image name: ") + ".png")
+    image.save(now.strftime("%d-%m-%Y-%H-%M-%S" + ".png"))
     print(f'data insert to image {inputImage} success')
     time.sleep(2)
 
 
 def decode():
-    inputImage = input("Enter image name(with extension): ")
+    inputImage = input("Enter image name: ")
     image = Image.open(inputImage + ".png", 'r')
     image_d = image.getdata()
 
